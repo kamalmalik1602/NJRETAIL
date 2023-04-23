@@ -1,0 +1,93 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+.col-lg-8{
+  margin:60px;
+  width: 90%;
+}
+@media (max-width:545px){
+  .col-lg-8 {
+    margin: 30px;
+    width: 90%;
+  }
+  }
+.col-md-6{
+  margin-bottom: 30px;
+}
+
+.heading-text-3 {
+  font-family: 'DynaPuff', cursive;
+  color: #088ec3;
+  font-size: 60px;
+  line-height: 55px;
+  margin: 50px 0 50px 0;
+  text-align: center;
+}  
+@media (min-width: 25px){
+  .heading-text-3{
+      font-size: 15px;
+  }
+ 
+  }
+
+@media (min-width: 345px){
+  .heading-text-3{
+      font-size: 15px;
+  }
+  }
+
+@media (min-width: 450px){
+  .heading-text-3{
+      font-size: 25px;
+  }
+
+  }
+  
+@media (min-width: 545px){
+  .heading-text-3{
+      font-size: 35px;
+  }
+  }
+@media (min-width: 768px){
+
+.heading-text-3{
+  font-size: 45px;
+}
+}
+@media (min-width: 992px){
+
+  .heading-text-3{
+    font-size: 65px;
+  }
+ 
+}
+.main-button {
+  display: inline-block;
+  background-color: #33ccc5;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 20px;
+  width: 40%;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border-bottom: 2px solid #4771cb!important;
+  transition: all .3s;
+  outline: none;
+  border: none;
+}
+.main-button:hover{
+  background-color: #4771cb;
+}
+
+@media (min-width: 992px){
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    width:100%;
+}
+}
